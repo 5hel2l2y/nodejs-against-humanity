@@ -26,5 +26,9 @@
   "subdomain": "nah-amir-rajan",
   "engines": {
     "node": "0.10.x"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "mocha-junit-reporter": "^1.11.1"
   }
 }

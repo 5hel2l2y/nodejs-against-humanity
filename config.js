@@ -1,6 +1,6 @@
 var config = {};
 
-config.port = 3000;
+config.port = 3003;
 
 config.minPlayers = 3;
 config.maxPlayers = 10;

@@ -1,5 +1,13 @@
 var _ = require('underscore');
-var Game = require('../game.js')
+var Game = require('../game.js');
+
+var reporters = require('jasmine-reporters');
+var junitReporter = new reporters.JUnitXmlReporter({
+    savePath: '..',
+    consolidateAll: false
+});
+
+jasmine.getEnv().addReporter(junitReporter);
 
 describe('multi-libs', function() {
   var playerList = [
