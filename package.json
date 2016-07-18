@@ -8,7 +8,7 @@
     "cover": "./node_modules/.bin/istanbul cover game.js",
     "test-m": "./node_modules/.bin/mocha --recursive -R xunit test/ > test-reports-testm.xml",
     "test-m2": "./node_modules/.bin/mocha ./test --reporter mochawesome",
-    "test-j": "./node_modules/.bin/jasmine-node ./spec --junitreport"
+    "test-j": "./node_modules/.bin/jasmine-node --junitreport ./spec"
   },
   "repository": {
     "type": "git",
