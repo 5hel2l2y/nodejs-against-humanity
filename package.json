@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "test-m": "./node_modules/.bin/mocha --recursive -R xunit test/ > test-reports-testm.xml",
-    "test-m2": "./node_modules/.bin/mocha test --report mochawesome",
-    "test-j": "./node_modules/.bin/jasmine-node --recursive -R xunit spec/ > test-reports-testj.xml"
+    "test-m2": "./node_modules/.bin/mocha test --reporter mochawesome",
+    "test-j": "./node_modules/.bin/jasmine-node spec --junitreport --output jasmine-node-xml"
   },
   "repository": {
     "type": "git",
