@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "./node_modules/.bin/mocha --recursive -R xunit test/ > test-reports-test.xml"
+    "test-m": "./node_modules/.bin/mocha --recursive -R xunit test/ > test-reports-testm.xml",
+    "test-m2": "./node_modules/.bin/mocha test --report mochawesome",
+    "test-j": "./node_modules/.bin/jasmine-node --recursive -R xunit spec/ > test-reports-testj.xml"
   },
   "repository": {
     "type": "git",
