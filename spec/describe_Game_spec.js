@@ -3,7 +3,7 @@ var Game = require('../game.js');
 
 var reporters = require('jasmine-reporters');
 var junitReporter = new reporters.JUnitXmlReporter({
-    savePath: '..',
+    savePath: '../',
     consolidateAll: false
 });
 

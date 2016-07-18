@@ -3,7 +3,7 @@ var assert = require('chai').assert;
 var mocha = new Mocha({
     reporter: 'mocha-junit-reporter',
     reporterOptions: {
-        mochaFile: './makethiswork.xml'
+        mochaFile: 'makethiswork.xml'
     }
 });
 
@@ -15,4 +15,3 @@ describe('Array', function() {
     });
   });
 });
-
