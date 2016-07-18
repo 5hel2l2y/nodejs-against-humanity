@@ -21,7 +21,7 @@ describe('Array2', function() {
 describe('Array3', function() {
   describe('#indexOf()', function() {
     it('should return -3 when the value is not present WORK DAMN YOU\n', function() {
-      assert.equal(1, [1,2,3].indexOf(1));
+      assert.equal(0, [1,2,3].indexOf(1));
       assert.equal(2, [1,2,3].indexOf(2));
     });
   });
