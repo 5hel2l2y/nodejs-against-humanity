@@ -9,7 +9,7 @@
     "test-m": "./node_modules/.bin/mocha --recursive -R xunit test/ > test-reports-mocha.xml",
     "test-m2": "./node_modules/.bin/mocha ./test --reporter mochawesome",
     "test-tape": "./node_modules/.bin/tape ./test-tape.js | tap-xunit > test-reports-tape.xml",
-    "test-j": "./node_modules/.bin/jasmine-node --junitreport ./spec/describe_Game_spec.js --output ./"
+    "test-j": "./node_modules/.bin/jasmine-node --forceexit --junitreport ./spec/describe_Game_spec.js --output ./"
   },
   "repository": {
     "type": "git",
